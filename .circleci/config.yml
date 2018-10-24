@@ -2,11 +2,15 @@ version: 2
 jobs:
   build:
     docker:
-      - image: microsoft/dotnet:2.1-aspnetcore-runtime
+      - image: debian:stretch
     working_directory: ~/NetworkListFix
     steps:
       - checkout
-      - run: dotnet build
-     
+      - run:
+          name: Greeting
+          command: echo Hello, world.
+      - run:
+          name: Print the Current Time
+          command: date    
       
       
