@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkListFix", "NetworkListFix\NetworkListFix.csproj", "{75E27BB5-39EF-4EBA-8164-5304ACBB5396}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75E27BB5-39EF-4EBA-8164-5304ACBB5396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E27BB5-39EF-4EBA-8164-5304ACBB5396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E27BB5-39EF-4EBA-8164-5304ACBB5396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E27BB5-39EF-4EBA-8164-5304ACBB5396}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F96F692-1561-4273-81C6-B551E8EB3576}
+	EndGlobalSection
+EndGlobal
