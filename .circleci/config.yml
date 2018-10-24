@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: microsoft/dotnet-framework
+      - image: debian:stretch
     working_directory: ~/NetworkListFix
     steps:
       - checkout
